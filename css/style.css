@@ -172,3 +172,15 @@ section h2 {
   text-align: center;
   font-size: 1.5rem;
 }
+footer {
+  max-width: 60vw;
+  margin: 0px auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #df7e97;
+}
+footer p {
+  font-size: 0.6rem;
+  text-align: center;
+  color: #852f46;
+}
