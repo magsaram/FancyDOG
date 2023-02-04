@@ -1,0 +1,174 @@
+/* font-family: 'ABeeZee', sans-serif;
+font-family: 'Great Vibes', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1.2rem;
+}
+header {
+  height: 80vh;
+  background-color: #f4567f;
+  background-image: url(../images/pinkdog.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right center;
+}
+header div {
+  max-width: 60vw;
+}
+header p {
+  font-size: 3vw;
+  padding-left: 15vw;
+  color: white;
+}
+h1 {
+  padding: 5vw 0 0 10vw;
+  text-align: left;
+  color: white;
+}
+h1 {
+  font-size: 5vw;
+}
+.fancy {
+  font-family: "Great Vibes", cursive;
+  font-size: 13vw;
+}
+.wrapper {
+  max-width: 60vw;
+  margin: 2vh auto 0 auto;
+}
+.welcome {
+  text-align: center;
+  margin-bottom: 2vh;
+  margin-top: 4vh;
+  font-size: 1.5rem;
+}
+section h2 {
+  background-color: white;
+  color: #f4567f;
+  font-size: 2rem;
+  text-align: center;
+}
+.offer {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.leash {
+  background-image: url(../images/leash.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  transition: 0.2s;
+}
+.leash:hover {
+  background-size: 70%;
+}
+.food {
+  background-image: url(../images/food.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  transition: 0.2s;
+}
+.food:hover {
+  background-size: 70%;
+}
+
+.toys {
+  background-image: url(../images/ball.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  transition: 0.2s;
+}
+.toys:hover {
+  background-size: 70%;
+}
+.more {
+  background-image: url(../images/paw.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  transition: 0.2s;
+}
+.more:hover {
+  background-size: 70%;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.first-banner {
+  height: 250px;
+  background-color: #f4567f;
+  background-image: url(../images/pinkdog2.png);
+  background-repeat: no-repeat;
+  background-size: 270px;
+  background-position: left bottom;
+  margin-top: 5vh;
+}
+.first-banner-text {
+  text-align: center;
+  padding: 5px 20px 20px 250px;
+  font-size: 2.2vw;
+  color: white;
+  line-height: 140%;
+}
+.second-banner {
+  height: 250px;
+  background-color: #f4567f;
+  background-image: url(../images/dogtoy.png);
+  background-repeat: no-repeat;
+  background-size: 350px;
+  background-position: right center;
+  margin-top: 5vh;
+}
+.second-banner-text {
+  /* display: inline-block; */
+  /* text-align: center; */
+  padding: 100px 300px 0 80px;
+  font-size: 2.2vw;
+  color: white;
+  /* line-height: 250px; */
+}
+.addresses {
+  height: 25vh;
+  width: 50vw;
+  border: #b34663 dotted 5px;
+  border-radius: 50px;
+  margin: 5vh auto;
+  padding: 20px 0;
+  transition: 0.2s;
+}
+.addresses:hover {
+  background-color: #b34663;
+  color: white;
+}
+.address {
+  /* margin-top: 5vh; */
+  color: #f4567f;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.address2 {
+  margin-top: 3vh;
+  text-align: center;
+  font-size: 1.5rem;
+}
